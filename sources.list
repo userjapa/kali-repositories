@@ -1,0 +1,19 @@
+# deb cdrom:[Debian GNU/Linux 2017.3 _Kali-rolling_ - Official Snapshot amd64 LIVE/INSTALL Binary 20171109-13:49]/ kali-rolling contrib main non-free
+
+#deb cdrom:[Debian GNU/Linux 2017.3 _Kali-rolling_ - Official Snapshot amd64 LIVE/INSTALL Binary 20171109-13:49]/ kali-rolling contrib main non-free
+
+deb http://security.debian.org/debian-security jessie/updates main 
+
+deb http://http.kali.org/kali kali-rolling main contrib non-free
+
+deb http://old.kali.org/kali sana main non-free contrib
+
+deb http://mirrors.digitalocean.com/debian jessie main contrib non-free
+deb-src http://mirrors.digitalocean.com/debian jessie main contrib non-free
+
+deb http://security.debian.org/ jessie/updates main contrib non-free
+deb-src http://security.debian.org/ jessie/updates main contrib non-free
+
+# jessie-updates, previously known as 'volatile'
+deb http://mirrors.digitalocean.com/debian jessie-updates main contrib non-free
+deb-src http://mirrors.digitalocean.com/debian jessie-updates main contrib non-free
